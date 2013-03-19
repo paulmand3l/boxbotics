@@ -6,6 +6,11 @@
  * Author: Anli Zaimi
  * Author URI: http://azmind.com
  *
+ * #FFBB15 - Orange
+ * #009CD6 - Blue
+ * #7DCF28 - Green
+ * #C4003A - Red
+ *
  */
 
 
@@ -13,14 +18,14 @@ body {
     background: #fff;
     text-align: center;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    color: #888;
+    color: #444;
     font-size: 12px;
 }
 
-.violet { color: #9d426b; }
+.blue { color: #009CD6; }
 
 a {
-    color: #9d426b;
+    color: #009CD6;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -28,7 +33,7 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover { color: #888; text-decoration: none; }
+a:hover { color: #444; text-decoration: none; }
 
 strong { font-weight: bold; }
 
@@ -50,19 +55,26 @@ strong { font-weight: bold; }
     box-shadow: none;
 }
 
-.header h1 {
+.header .navbar h1 {
     float: left;
-    margin: 0;
-    text-align: left;
+    margin: 0px;
 }
 
-.header a.brand {
-    display: inline-block;
-    text-indent: -9999px;
-    width: 280px;
-    height: 63px;
-    padding: 30px 0;
-    background: url(../img/logo.png) 20px center no-repeat;
+.header h1 .brand {
+    font-family: 'Coming Soon', Cursive;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 28pt;
+    color: #009CD6;
+}
+
+.header h1 .brand small {
+    font-size: 16pt;
+    position: relative;
+    top: -10px;
+
 }
 
 .header ul.nav {
@@ -71,19 +83,19 @@ strong { font-weight: bold; }
 }
 
 .header ul.nav li a {
-    padding: 30px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
     color: #5d5d5d;
     text-shadow: none;
 }
 
 .header ul.nav li.current-page a {
     padding-top: 25px;
-    border-top: 5px solid #9d426b;
+    border-top: 5px solid #009CD6;
     background: #f8f8f8;
 }
 
 .header ul.nav li a:hover {
-    background: #9d426b;
+    background: #009CD6;
     color: #fff;
 }
 
@@ -99,7 +111,7 @@ strong { font-weight: bold; }
 
 .slider {
     margin: 0 auto;
-    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    background: #fafafa url(../img/pattern.jpg) left top repeat;
     -moz-box-shadow:
         0 5px 15px 0 rgba(0,0,0,.05) inset,
         0 -5px 15px 0 rgba(0,0,0,.05) inset;
@@ -114,7 +126,7 @@ strong { font-weight: bold; }
 .flexslider {
     margin-top: 45px;
     margin-bottom: 55px;
-    border: 6px solid #fff;
+    border: 6px solid #FFF;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -152,7 +164,7 @@ strong { font-weight: bold; }
 }
 
 .presentation h2 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Coming Soon', cursive;
     font-size: 30px;
     color: #5d5d5d;
 }
@@ -173,7 +185,7 @@ strong { font-weight: bold; }
     padding-bottom: 23px;
     padding-top: 20px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #009CD6;
 }
 
 .what-we-do .service:hover {
@@ -196,7 +208,7 @@ strong { font-weight: bold; }
 
 .what-we-do .service h4 {
     margin-top: 5px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -212,7 +224,7 @@ strong { font-weight: bold; }
 
 .what-we-do .service a {
     padding: 5px 22px;
-    background: #9d426b;
+    background: #009CD6;
     color: #fff;
     font-style: italic;
     text-decoration: none;
@@ -260,7 +272,7 @@ strong { font-weight: bold; }
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
+    font-family: 'Coming Soon', cursive;
     font-size: 24px;
     color: #5d5d5d;
 }
@@ -269,7 +281,7 @@ strong { font-weight: bold; }
     margin-top: 40px;
     padding-bottom: 20px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #009CD6;
 }
 
 .portfolio .work:hover img {
@@ -300,7 +312,7 @@ strong { font-weight: bold; }
 .portfolio .work .icon-awesome a {
     display: inline-block;
     padding: 5px 9px;
-    background: #9d426b; 
+    background: #009CD6; 
     color: #fff;
     -moz-border-radius: 19px;
     -webkit-border-radius: 19px;
@@ -337,7 +349,7 @@ strong { font-weight: bold; }
 
 .portfolio .work h4 {
     margin-top: 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -365,7 +377,7 @@ strong { font-weight: bold; }
     width: 180px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
+    font-family: 'Coming Soon', cursive;
     font-size: 24px;
     color: #5d5d5d;
 }
@@ -410,7 +422,7 @@ strong { font-weight: bold; }
 }
 
 .testimonial-list .nav-tabs li a:hover { border: 0; background: #ddd; }
-.testimonial-list .nav-tabs li.active a { background: #9d426b; }
+.testimonial-list .nav-tabs li.active a { background: #009CD6; }
 
 
 /* ----- Footer ----- */
@@ -418,7 +430,7 @@ strong { font-weight: bold; }
 footer {
     margin: 0 auto;
     padding-bottom: 10px;
-    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    background: #f8f8f8 left top repeat; /* url(../img/pattern.jpg) */
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
@@ -431,7 +443,7 @@ footer .widget {
 
 footer .widget h4 {
     margin-top: 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -556,9 +568,9 @@ footer .social a:hover { background-position: left top; }
 .page-title h2 {
     display: inline;
     margin-left: 10px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Coming Soon', cursive;
     font-size: 24px;
-    color: #5d5d5d;
+    color: #009CD6;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
     vertical-align: middle;
 }
@@ -595,9 +607,9 @@ footer .social a:hover { background-position: left top; }
 .about-us-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    color: #5d5d5d;
+    color: #FFBB15;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -622,16 +634,16 @@ footer .social a:hover { background-position: left top; }
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
+    font-family: 'Coming Soon', cursive;
     font-size: 24px;
-    color: #5d5d5d;
+    color: #FFBB15;
 }
 
 .team-text {
     margin-top: 40px;
     padding-bottom: 20px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #009CD6;
 }
 
 .team-text:hover img {
@@ -678,7 +690,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text h4 {
     margin-top: 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -704,7 +716,7 @@ footer .social a:hover { background-position: left top; }
 .contact-us h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -741,7 +753,7 @@ footer .social a:hover { background-position: left top; }
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    color: #888;
+    color: #444;
     font-size: 13px;
     font-style: italic;
 }
@@ -761,7 +773,7 @@ footer .social a:hover { background-position: left top; }
     width: 120px;
     height: 30px;
     margin-top: 15px;
-    background: #9d426b;
+    background: #009CD6;
     border: 0;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -833,7 +845,7 @@ footer .social a:hover { background-position: left top; }
 .services-full-width-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -860,7 +872,7 @@ footer .social a:hover { background-position: left top; }
 .services-half-width-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -913,7 +925,7 @@ footer .social a:hover { background-position: left top; }
 
 .call-to-action-text .ca-button a {
     padding: 5px 22px;
-    background: #9d426b;
+    background: #009CD6;
     color: #fff;
     text-decoration: none;
     -moz-box-shadow:
@@ -956,7 +968,7 @@ footer .social a:hover { background-position: left top; }
 .portfolio-page h4.filter-portfolio {
     margin-top: 35px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-align: left;
@@ -974,9 +986,9 @@ ul.portfolio-img li {
 }
 
 .filter-portfolio a { color: #5d5d5d; text-decoration: none; }
-.filter-portfolio a:hover { color: #9d426b; text-decoration: none; }
+.filter-portfolio a:hover { color: #009CD6; text-decoration: none; }
 
-.filter-portfolio a#active-imgs { color: #9d426b; }
+.filter-portfolio a#active-imgs { color: #009CD6; }
 .filter-portfolio a#active-imgs:hover { color: #5d5d5d; }
 
 
