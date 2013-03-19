@@ -37,6 +37,8 @@ a:hover { color: #444; text-decoration: none; }
 
 strong { font-weight: bold; }
 
+section { margin-bottom: 50px;}
+
 
 /* ----- Header ----- */
 
@@ -123,6 +125,10 @@ strong { font-weight: bold; }
         0 -5px 15px 0 rgba(0,0,0,.05) inset;
 }
 
+section.slider {
+    margin-bottom: 50px;
+}
+
 .flexslider {
     margin-top: 45px;
     margin-bottom: 55px;
@@ -159,10 +165,6 @@ strong { font-weight: bold; }
 
 /* ----- Presentation ----- */
 
-.presentation {
-    margin-top: 30px;
-}
-
 .presentation h2 {
     font-family: 'Coming Soon', cursive;
     font-size: 30px;
@@ -178,12 +180,13 @@ strong { font-weight: bold; }
 /* ----- What we do ----- */
 
 .what-we-do {
-    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .what-we-do .service {
     padding-bottom: 23px;
     padding-top: 20px;
+    margin-bottom: 30px;
     background: #f8f8f8;
     border-bottom: 2px solid #009CD6;
 }
@@ -259,10 +262,6 @@ strong { font-weight: bold; }
 
 
 /* ----- Portfolio ----- */
-
-.portfolio {
-    margin-top: 50px;
-}
 
 .portfolio-title {
     background: url(../img/line.png) left center repeat-x;
@@ -363,11 +362,6 @@ strong { font-weight: bold; }
 
 
 /* ----- Testimonials ----- */
-
-.testimonials {
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
 
 .testimonials-title {
     background: url(../img/line.png) left center repeat-x;
@@ -709,7 +703,6 @@ footer .social a:hover { background-position: left top; }
 
 .contact-us {
     margin-top: 20px;
-    padding-bottom: 50px;
     text-align: left;
 }
 
@@ -889,7 +882,6 @@ footer .social a:hover { background-position: left top; }
 
 .call-to-action {
     margin-top: 20px;
-    padding-bottom: 50px;
 }
 
 .call-to-action-text {
@@ -962,7 +954,6 @@ footer .social a:hover { background-position: left top; }
 
 .portfolio-page {
     margin-top: 20px;
-    padding-bottom: 50px;
 }
 
 .portfolio-page h4.filter-portfolio {
