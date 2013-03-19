@@ -14,7 +14,8 @@ $(window).load(function() {
 */
 jQuery(document).ready(function() {
     var page = window.location.pathname;
-    $('.nav li.' + page.replace('/','')).addClass('current-page');
+    console.log(page);
+    $('.nav li.' + page.substring(1,page.length-1)).addClass('current-page');
 });
 
 
@@ -23,7 +24,7 @@ jQuery(document).ready(function() {
 */
 jQuery(document).ready(function() {
     $clientsHolder = $('ul.portfolio-img');
-    $clientsClone = $clientsHolder.clone(); 
+    $clientsClone = $clientsHolder.clone();
  
     $('.filter-portfolio a').click(function(e) {
         e.preventDefault();
