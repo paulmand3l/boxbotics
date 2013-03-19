@@ -87,12 +87,17 @@ $(document).ready(function() {
     Google maps
 */
 jQuery(document).ready(function() {
+    var geocoder = new google.maps.Geocoder();
     var position = new google.maps.LatLng(45.067883, 7.687231);
-    $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
-            var self = this;
-            self.addMarker({'position': this.get('map').getCenter() });	
+    geocoder.geocode({'address': 'Carnegie Mellon University, Pittsburgh, PA'}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            $('.map').gmap({'center': results[0].geometry.location,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
+                var self = this;
+                self.addMarker({'position': this.get('map').getCenter() });
+            }});
         }
-    }); 
+    });
+
 });
 
 
