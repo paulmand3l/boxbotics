@@ -10,6 +10,15 @@ $(window).load(function() {
 
 
 /*
+    Find current page
+*/
+jQuery(document).ready(function() {
+    var page = window.location.pathname;
+    $('.nav li.' + page.replace('/','')).addClass('current-page');
+});
+
+
+/*
     Filterable portfolio
 */
 jQuery(document).ready(function() {
