@@ -63,7 +63,7 @@ section { margin-bottom: 50px;}
 }
 
 .header h1 .brand {
-    font-family: 'Coming Soon', Cursive;
+    font-family: 'Arvo', Cursive;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 0px;
@@ -166,7 +166,7 @@ section.slider {
 /* ----- Presentation ----- */
 
 .presentation h2 {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 30px;
     color: #5d5d5d;
 }
@@ -193,13 +193,13 @@ section.slider {
 
 .what-we-do .service:hover {
     box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05),
-        0 1px 25px 0 rgba(0,0,0,.05) inset,
-        0 -1px 25px 0 rgba(0,0,0,.05) inset;
-    -o-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -ms-transition: all .5s;
+        0 5px 15px 0 rgba(0,156,214,.05),
+        0 1px 25px 0 rgba(0,156,214,.05) inset,
+        0 -1px 25px 0 rgba(0,156,214,.05) inset;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
 }
 
 .what-we-do .service .icon-awesome {
@@ -211,7 +211,7 @@ section.slider {
 
 .what-we-do .service h4 {
     margin-top: 5px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -271,7 +271,7 @@ section.slider {
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 24px;
     color: #5d5d5d;
 }
@@ -348,7 +348,7 @@ section.slider {
 
 .portfolio .work h4 {
     margin-top: 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -371,7 +371,7 @@ section.slider {
     width: 180px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 24px;
     color: #5d5d5d;
 }
@@ -437,7 +437,7 @@ footer .widget {
 
 footer .widget h4 {
     margin-top: 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -562,7 +562,7 @@ footer .social a:hover { background-position: left top; }
 .page-title h2 {
     display: inline;
     margin-left: 10px;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 24px;
     color: #009CD6;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
@@ -601,7 +601,7 @@ footer .social a:hover { background-position: left top; }
 .about-us-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #FFBB15;
     text-transform: uppercase;
@@ -628,7 +628,7 @@ footer .social a:hover { background-position: left top; }
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Arvo', cursive;
     font-size: 24px;
     color: #FFBB15;
 }
@@ -684,7 +684,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text h4 {
     margin-top: 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -709,7 +709,7 @@ footer .social a:hover { background-position: left top; }
 .contact-us h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -838,7 +838,7 @@ footer .social a:hover { background-position: left top; }
 .services-full-width-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -865,7 +865,7 @@ footer .social a:hover { background-position: left top; }
 .services-half-width-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
@@ -959,7 +959,7 @@ footer .social a:hover { background-position: left top; }
 .portfolio-page h4.filter-portfolio {
     margin-top: 35px;
     padding: 0 20px;
-    font-family: 'Coming Soon', Helvetica, Arial, sans-serif;
+    font-family: 'Arvo', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-align: left;
