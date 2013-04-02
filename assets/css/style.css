@@ -64,6 +64,7 @@ section { margin-bottom: 50px;}
 
 .header h1 .brand {
     font-family: 'Arvo', Cursive;
+    font-weight: 700;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 0px;
@@ -150,7 +151,7 @@ section.slider {
 .flex-caption {
     position: absolute;
     bottom: 20px;
-    max-width: 920px;
+    max-width: 728px;
     padding: 10px 20px;
     margin: 0;
     background: #1d1d1d; /* browsers that don't support rgba */
@@ -311,7 +312,7 @@ section.slider {
 .portfolio .work .icon-awesome a {
     display: inline-block;
     padding: 5px 9px;
-    background: #009CD6; 
+    background: #009CD6;
     color: #fff;
     -moz-border-radius: 19px;
     -webkit-border-radius: 19px;
@@ -465,7 +466,7 @@ footer .widget i {
     overflow-y: hidden;
     list-style: none;
 }
-	
+
 .tweet_list li {
     height: 100%;
     overflow-y: auto;
@@ -473,11 +474,11 @@ footer .widget i {
     list-style-type: none;
     line-height: 24px;
 }
-		
+
 .tweet_list .tweet_avatar {
     float: left;
 }
-		
+
 .tweet_list .tweet_avatar img {
     vertical-align: middle;
 }
