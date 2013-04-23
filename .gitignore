@@ -1,4 +1,6 @@
 _site/
 
+.gitignore
+.gitignore*
 .DS_Store
 *.DS_Store
