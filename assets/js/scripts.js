@@ -10,16 +10,6 @@ $(window).load(function() {
 
 
 /*
-    Find current page
-*/
-jQuery(document).ready(function() {
-    var page = window.location.pathname;
-    console.log(page);
-    $('.nav li.' + page.substring(1,page.length-1)).addClass('current-page');
-});
-
-
-/*
     Filterable portfolio
 */
 jQuery(document).ready(function() {
@@ -84,9 +74,9 @@ jQuery(function($) {
 */
 $(document).ready(function() {
     $('.flickr-feed').jflickrfeed({
-        limit: 8,
+        limit: 10,
         qstrings: {
-            id: '52617155@N08'
+            id: '98887909@N04'
         },
         itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
     });

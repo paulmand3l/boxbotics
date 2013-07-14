@@ -57,18 +57,21 @@ section { margin-bottom: 50px;}
     box-shadow: none;
 }
 
-.header .navbar h1 {
-    float: left;
+.header .navbar .brand {
+    float: none;
+    text-align: center;
     margin: 0px;
+    display: inline-block;
 }
 
-.header h1 .brand {
+.header .brand h1 {
+    display: inline-block;
     font-family: 'Arvo', Cursive;
     font-weight: 700;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 0px;
-    text-align: left;
+    text-align: center;
     font-size: 28pt;
     color: #009CD6;
 }
@@ -512,7 +515,7 @@ footer .footer-border {
 
 footer .copyright {
     margin-top: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 footer .social {
